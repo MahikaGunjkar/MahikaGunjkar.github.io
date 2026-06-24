@@ -1,0 +1,62 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Experience &#183; Mahika Gunjkar</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"><style>
+:root{--void:#0a0e1a;--white:#eef2fb;--mut:#9aa6c2;--soft:#6b7792;
+--blue:#5ab0ff;--purple:#7c9cff;--pink:#b98cff;--mint:#3fd9b8;--line:rgba(140,160,200,.16)}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{background:var(--void);color:var(--white);font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden;min-height:100vh}
+a{color:inherit;text-decoration:none}
+.aurora{position:fixed;inset:0;z-index:0;pointer-events:none;background:
+radial-gradient(55% 45% at 16% 10%,rgba(124,156,255,.12),transparent 60%),
+radial-gradient(50% 45% at 86% 16%,rgba(124,156,255,.12),transparent 60%),
+radial-gradient(55% 50% at 72% 96%,rgba(90,176,255,.10),transparent 60%),
+radial-gradient(45% 45% at 8% 92%,rgba(63,217,184,.10),transparent 60%)}
+.grain{position:fixed;inset:0;z-index:0;opacity:.32;pointer-events:none;
+background-image:radial-gradient(rgba(255,255,255,.06) 1px,transparent 1px);background-size:3px 3px}
+.wrap{position:relative;z-index:2;max-width:1080px;margin:0 auto;padding:0 28px 110px}
+.bar{position:sticky;top:0;z-index:9;display:flex;align-items:center;justify-content:space-between;padding:22px 0;
+backdrop-filter:blur(6px)}
+.back{font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--mut);display:inline-flex;align-items:center;gap:10px;transition:.2s}
+.back .g{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;border:1px solid var(--line);background:rgba(255,255,255,.04);transition:.2s}
+.back:hover{color:#fff}.back:hover .g{border-color:var(--blue);box-shadow:0 0 18px rgba(55,166,255,.6)}
+.brand{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:14px}
+.brand b{background:linear-gradient(120deg,var(--blue),var(--pink));-webkit-background-clip:text;background-clip:text;color:transparent}
+.head{padding:30px 0 26px}
+.kick{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.12em;color:var(--mut);margin-bottom:14px}
+h1{font-family:'Sora',sans-serif;font-weight:800;font-size:clamp(40px,8vw,82px);line-height:.95;letter-spacing:-.035em;
+background:linear-gradient(110deg,var(--blue),var(--purple) 55%,#b98cff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.intro{color:var(--mut);font-size:16.5px;line-height:1.6;max-width:620px;margin-top:18px}
+footer{position:relative;z-index:2;border-top:1px solid var(--line);padding:26px;text-align:center;font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--soft)}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+.timeline{position:relative;margin-top:10px}
+.exp{position:relative;display:grid;grid-template-columns:170px 1fr;gap:34px;padding:0 0 44px 0}
+.exp::before{content:"";position:absolute;left:170px;top:8px;width:13px;height:13px;border-radius:50%;
+background:var(--accent);box-shadow:0 0 18px var(--accent);transform:translateX(-50%)}
+.exp::after{content:"";position:absolute;left:170px;top:20px;bottom:-8px;width:2px;
+background:linear-gradient(var(--accent),transparent);transform:translateX(-50%)}
+.exp:last-child::after{display:none}
+.when{font-family:'JetBrains Mono',monospace;font-size:12.5px;color:var(--accent);text-align:right;padding-top:4px}
+.ebody{padding-left:28px}
+.ebody h3{font-family:'Sora',sans-serif;font-size:23px;font-weight:700;margin-bottom:4px}
+.org{color:var(--mut);font-size:14.5px;margin-bottom:16px;font-family:'JetBrains Mono',monospace}
+.ebody ul{list-style:none;display:flex;flex-direction:column;gap:13px}
+.ebody li{position:relative;padding-left:24px;font-size:15.5px;line-height:1.6;color:#e7e2fb}
+.ebody li::before{content:"";position:absolute;left:0;top:9px;width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 10px var(--accent)}
+@media(max-width:680px){.exp{grid-template-columns:1fr;gap:10px}.exp::before,.exp::after{display:none}.when{text-align:left}.ebody{padding-left:0}}
+</style></head><body><div class="aurora"></div><div class="grain"></div><div class="wrap">
+<nav class="bar"><a class="back" href="index.html"><span class="g">&#8592;</span><span>back to home</span></a>
+<span class="brand">mahika<b>.</b>gunjkar</span></nav><header class="head"><div class="kick">// research and industry</div>
+<h1>Experience</h1><p class="intro">Where I have shipped models, pipelines, and dashboards.</p></header>
+<div class="timeline"><div class="exp" style="--accent:#5ab0ff;--accent-rgb:90,176,255">
+      <div class="when">May 2026 to Present</div>
+      <div class="ebody"><h3>Research Assistant, PLUS Lab</h3><div class="org">Carnegie Mellon University</div>
+      <ul><li>Building a React and Python web application that lets middle school mathematics teachers track student progress and set learning goals from iReady assessment data.</li><li>Added automated weekly reporting and hosted the infrastructure on Amazon Web Services.</li><li>Engineering Extract, Transform, and Load pipelines that process and integrate student performance data from multiple sources into real time teacher facing dashboards, which significantly reduces manual reporting work.</li></ul></div></div><div class="exp" style="--accent:#3fd9b8;--accent-rgb:63,217,184">
+      <div class="when">May 2024 to July 2024</div>
+      <div class="ebody"><h3>Software Development Intern</h3><div class="org">Revdau Industries</div>
+      <ul><li>Engineered regression and clustering models in Scikit-learn that reached ninety percent accuracy on internal key performance indicators, using feature engineering, cross validation, and hyperparameter optimization.</li><li>Built automated Extract, Transform, and Load pipelines in Python that reduced manual data preparation time by twenty five percent.</li><li>Architected data storage on Amazon Web Services using Elastic Compute Cloud and G4 instances, maintaining ninety nine percent uptime across teams.</li><li>Conducted large scale exploratory data analysis using SQL and Pandas that surfaced patterns which directly influenced the product roadmap.</li></ul></div></div><div class="exp" style="--accent:#3fd9b8;--accent-rgb:63,217,184">
+      <div class="when">May 2023 to July 2023</div>
+      <div class="ebody"><h3>Resource Management Group Intern</h3><div class="org">Tata Consultancy Services</div>
+      <ul><li>Allocated more than one hundred employees to high priority projects by analyzing skill matrices against demand and capacity models.</li><li>Optimized utilization and identified gaps that informed hiring and training plans.</li><li>Designed and automated daily and weekly workforce tracking dashboards that gave senior leadership real time visibility into resourcing decisions.</li></ul></div></div></div></div>
+<footer>3 roles · © <span id="yr"></span> Mahika Gunjkar</footer>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script></body></html>
